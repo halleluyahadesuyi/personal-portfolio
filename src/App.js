@@ -11,10 +11,6 @@ function App() {
       <Profile />
 
       <Intro />
-
-      <header className="App-header">
-        <h1>yello!</h1>
-      </header>
     </div>
   );
 }

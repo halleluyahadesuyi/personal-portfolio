@@ -131,6 +131,7 @@ img {
 
 .name {
   margin-bottom: 0.3rem;
+  word-spacing: 0.3rem;
 }
 
 .about-me {
@@ -215,12 +216,17 @@ img {
   .navbar-links li:focus {
       background: rgba(107, 65, 116, 0.7);
       padding: 0.5rem;
-      border-radius: 5px;  
+      border-radius: 5px;
   }
   
   .navbar-links a {
       padding: 0 1.5rem;
       font-size: 1rem;
+  }
+
+  .navbar-links a:hover,
+  .navbar-links a:focus {
+    color: magenta;
   }
 
   .hamburger-toggle {

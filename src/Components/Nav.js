@@ -1,26 +1,40 @@
-import React from "react"
+import React, { useState}  from "react"
 import logo from "../img/logo.png"
 import emailIcon from "../img/email-icon.png"
 
 export default function Nav() {
+    // const hamburgerToggle = document.getElementsByClassName("hamburger-toggle")[0]
+    // const navbarLinks = document.getElementsByClassName("navbar-links")[0]
+
+    // hamburgerToggle.addEventListener("click", () => {
+    //     navbarLinks.classList.toggle("active")
+    // })
+
+// {    const [hamburgerToggle, setHamburgerToggle] = React.useState(false)}
+
+    function hamburgerToggle() {
+        // console.log("yeeees!")
+        // return hamburger-toggle.classList.toggle("active")
+    }
+
   return (
-    <nav class="navbar">
+    <nav className="navbar">
         <img 
             src={logo}
             alt="brand logo"
-            class="logo"
+            className="logo"
         />
 
-        <a href="mailto:adesuyihalleluyah@gmail.com" class="get-in-touch">
+        <a href="mailto:adesuyihalleluyah@gmail.com" className="get-in-touch">
             <h5>Get in touch!</h5>
             <img 
                 src={emailIcon}
                 alt="Email Icon"
-                class="email-icon"
+                className="email-icon"
             />
         </a>
 
-        <div class="navbar-links">
+        <div className="navbar-links">
             <ul>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">PORTFOLIO</a></li>
@@ -28,11 +42,11 @@ export default function Nav() {
             </ul>
         </div>
 
-        <a href="#" class="hamburger-toggle">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
+        <div className="hamburger-toggle" onClick={hamburgerToggle}>
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+        </div>
     </nav>
   )
 }

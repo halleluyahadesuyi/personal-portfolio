@@ -10,12 +10,12 @@ import gitLogo from "../img/git.png"
 
 export default function Intro() {
   return (
-    <section class="about-me">
+    <section className="about-me">
         <h3>WHO I AM</h3>
         <img 
             src={decorativeUnderline}
             alt="Decorative Underline"
-            class="underline"
+            className="underline"
         />
         <p>I am a creative and design-oriented Frontend Developer
             who builds web applications using React. I love to bring life to abstract ideas, and
@@ -25,42 +25,42 @@ export default function Intro() {
             software development; working with others and coding my way through each day.
         </p>
         
-        <div class="skillset">
+        <div className="skillset">
             <h4>Languages/Tools I utilize:</h4>
             
-            <div class="skillset-flex">
-                <div class="skill-item">
-                    <img src={reactLogo} alt="React" class="skillset-img" />
+            <div className="skillset-flex">
+                <div className="skill-item">
+                    <img src={reactLogo} alt="React" className="skillset-img" />
                     <h5>React</h5>
                 </div>
 
-                <div class="skill-item">
-                    <img src={nextjsLogo} alt="Next.js" class="skillset-img" />
+                <div className="skill-item">
+                    <img src={nextjsLogo} alt="Next.js" className="skillset-img" />
                     <h5>Next.js</h5>
                 </div>
 
-                <div class="skill-item">
-                    <img src={javascriptLogo} alt="JavaScript" class="skillset-img" />
+                <div className="skill-item">
+                    <img src={javascriptLogo} alt="JavaScript" className="skillset-img" />
                     <h5>JavaScript</h5>
                 </div>
 
-                <div class="skill-item">
-                    <img src={htmlLogo} alt="HTML" class="skillset-img" />
+                <div className="skill-item">
+                    <img src={htmlLogo} alt="HTML" className="skillset-img" />
                     <h5>HTML</h5>
                 </div>
 
-                <div class="skill-item">
-                    <img src={cssLogo} alt="CSS" class="skillset-img" />
+                <div className="skill-item">
+                    <img src={cssLogo} alt="CSS" className="skillset-img" />
                     <h5>CSS</h5>
                 </div>
 
-                <div class="skill-item">
-                    <img src={figmaLogo} alt="Figma" class="skillset-img" />
+                <div className="skill-item">
+                    <img src={figmaLogo} alt="Figma" className="skillset-img" />
                     <h5>Figma</h5>
                 </div>
 
-                <div class="skill-item">
-                    <img src={gitLogo} alt="Git" class="skillset-img" />
+                <div className="skill-item">
+                    <img src={gitLogo} alt="Git" className="skillset-img" />
                     <h5>Git</h5>
                 </div>
             </div>
