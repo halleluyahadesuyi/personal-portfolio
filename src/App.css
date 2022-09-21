@@ -58,13 +58,18 @@ img {
   position: absolute;
   top: 3.4rem;
   right: 0rem;
+  z-index: 9999;
+}
+
+.navbar-links-active {
+  display: block;
 }
 
 .navbar-links li {
   list-style: none;
   padding: 1rem 1rem 0.4rem 0;
   border-bottom: 0.1rem solid black;
-  background: rgba(83, 3, 99, 0.7);  
+  background: rgba(83, 3, 99, 0.7);
 }
 
 .navbar-links a {
@@ -181,116 +186,110 @@ img {
   margin-right: 0.3rem;
 }
 
-.active {
-  display: block;
-}
-
 /* ---------MEDIA QUERIES--------- */
 @media(min-width: 768px) {
   .logo {
-      width: 4rem;
+    width: 4rem;
   }
 
   .get-in-touch {
-      font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 
   .navbar-links {
-      display: block;
-      position: static;
+    display: block;
+    position: static;
   }
-  
+
   .navbar-links ul {
-      display: flex;
-      align-items: center;
-      margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
   }
-  
+
   .navbar-links li {
-      padding: 0;
-      border-bottom: none;
-      background: none;  
+    padding: 0;
+    border-bottom: none;
+    background: none;
   }
 
   .navbar-links li:hover,
   .navbar-links li:focus {
-      background: rgba(107, 65, 116, 0.7);
-      padding: 0.5rem;
-      border-radius: 5px;
+    background: rgba(107, 65, 116, 0.7);
+    padding: 0.5rem;
+    border-radius: 5px;
   }
-  
+
   .navbar-links a {
-      padding: 0 1.5rem;
-      font-size: 1rem;
+    padding: 0 1.5rem;
+    font-size: 1rem;
   }
 
   .navbar-links a:hover,
   .navbar-links a:focus {
-    color: magenta;
+    color: rgb(219, 88, 88);
   }
 
   .hamburger-toggle {
-      display: none;
+    display: none;
   }
 
   .profile-bg {
-      height: 37.5rem;
+    height: 37.5rem;
   }
 
   .profile-img {
-      max-width: 18rem;
+    max-width: 18rem;
   }
 
   .name-and-job-title {
-      top: 27.5rem;
+    top: 27.5rem;
   }
 
   .name {
-      font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 
   .job-title {
-      font-size: 0.9rem;
-
+    font-size: 1rem;
   }
 
   .about-me p {
-      font-size: 0.8rem;
+    font-size: 0.8rem;
   }
 }
 
 @media(min-width: 1200px) {
   .navbar-links a {
-      font-size: 1.1rem;
+    font-size: 1.1rem;
   }
 
   .profile-bg {
-      height: 42rem;
+    height: 42rem;
   }
 
   .profile-img {
-      max-width: 20rem;
+    max-width: 20rem;
   }
 
   .name-and-job-title {
-      top: 30.5rem;
+    top: 30.5rem;
   }
 
   .name {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   .job-title {
-      font-size: 1.1rem;
-
+    font-size: 1.2rem;
   }
 
   .about-me h3,
   .skillset h4 {
-      font-size: 1.3rem;
+    font-size: 1.3rem;
   }
 
   .about-me p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 }

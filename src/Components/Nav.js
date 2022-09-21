@@ -3,18 +3,9 @@ import logo from "../img/logo.png"
 import emailIcon from "../img/email-icon.png"
 
 export default function Nav() {
-    // const hamburgerToggle = document.getElementsByClassName("hamburger-toggle")[0]
-    // const navbarLinks = document.getElementsByClassName("navbar-links")[0]
-
-    // hamburgerToggle.addEventListener("click", () => {
-    //     navbarLinks.classList.toggle("active")
-    // })
-
-// {    const [hamburgerToggle, setHamburgerToggle] = React.useState(false)}
-
     function hamburgerToggle() {
-        // console.log("yeeees!")
-        // return hamburger-toggle.classList.toggle("active")
+        const navbarLinks = document.getElementsByClassName("navbar-links")[0]
+        navbarLinks.classList.toggle("navbar-links-active")
     }
 
   return (
