@@ -1,8 +1,10 @@
 import Nav from "./Components/Nav"
 import Profile from "./Components/Profile"
-import Intro from "./Components/Intro"
+import Intro from "./Components/AboutMe"
 import Certifications from "./Components/Certifications"
 import "./App.css"
+import AboutMe from "./Components/AboutMe"
+import MyWork from "./Components/MyWork"
 
 function App() {
   return (
@@ -11,9 +13,13 @@ function App() {
 
       <Profile />
 
-      <Intro />
+      <AboutMe />
 
       <Certifications />
+
+      <MyWork 
+        src={""}
+      />
     </div>
   );
 }
