@@ -189,26 +189,64 @@ img {
   line-height: 1.5rem;
 }
 
-.skillset h4 {
+.certifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.skillset h4,
+.certifications h2 {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.skillset-grid {
+.certifications,
+.cert-item a {
+  color: rgb(87, 7, 87);
+}
+
+.cert-item a {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.skillset-grid,
+.cert-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
 }
 
-.skill-item {
+.skillset-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cert-grid {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.skill-item,
+.cert-item {
   display: flex;
   align-items: center;
   margin: 0.6rem 1rem;
 }
 
 .skillset-img {
-  width: 2rem;
   margin-right: 0.3rem;
+  width: 2rem;
+}
+
+.cert-img {
+  margin-right: 0.8rem;
+  width: 4rem;
+}
+
+.cert-item p {
+  font-size: 0.8rem;
+  color: black;
 }
 
 /* ---------MEDIA QUERIES--------- */
