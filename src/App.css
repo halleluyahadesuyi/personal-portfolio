@@ -45,8 +45,8 @@ img {
 .get-in-touch:hover,
 .get-in-touch:focus {
   background: white;
-  color: rgb(87, 7, 87);
-  border: 2px dashed rgb(87, 7, 87);
+  color: rgb(7, 7, 49);
+  border: 2px dashed rgb(7, 7, 49);
 }
 
 .get-in-touch h5 {
@@ -54,7 +54,7 @@ img {
 }
 
 .get-in-touch .email-icon {
-  width: 1rem;
+  width: 1.4rem;
 }
 
 .navbar-links {
@@ -73,7 +73,7 @@ img {
   list-style: none;
   padding: 1rem 1rem 0.4rem 0;
   border-bottom: 0.1rem solid black;
-  background: rgba(83, 3, 99, 0.7);
+  background: rgba(7, 7, 49, 0.7);
 }
 
 .navbar-links a {
@@ -131,9 +131,9 @@ img {
 .name-and-job-title {
   text-shadow: 2px 4px 2px black;
   text-align: center;
-  background: rgb(87, 7, 87, 0.3);
-  padding: 0.2rem 0.5rem;
-  border: 1px dashed rgb(87, 7, 87);
+  background: rgba(7, 7, 49, 0.3);
+  padding: 0.2rem 0.5rem 0.3rem 0.5rem;
+  border: 1px dashed rgb(7, 7, 49);
   border-radius: 3px;
   top: 24.5rem;
 }
@@ -158,7 +158,7 @@ img {
 
 .about-me p,
 .about-me .skillset {
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .about-me p {
@@ -178,8 +178,9 @@ img {
   flex-wrap: wrap;
   justify-content: center; */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 5px; */
+  justify-content: center;
 }
 
 .skill-item {
@@ -189,12 +190,12 @@ img {
 }
 
 .skillset-img {
-  width: 1.5rem;
+  width: 2rem;
   margin-right: 0.3rem;
 }
 
 /* ---------MEDIA QUERIES--------- */
-@media(min-width: 768px) {
+@media(min-width: 420px) {
   .logo {
     width: 4rem;
   }
@@ -203,6 +204,75 @@ img {
     font-size: 1.2rem;
   }
 
+  /* .navbar-links {
+    display: block;
+    position: static;
+  }
+
+  .navbar-links ul {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  .navbar-links li {
+    padding: 0;
+    border-bottom: none;
+    background: none;
+  }
+
+  .navbar-links li:hover,
+  .navbar-links li:focus {
+    background: rgba(75, 75, 122, 0.5);
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+
+  .navbar-links a {
+    padding: 0 1.5rem;
+    font-size: 1rem;
+  }
+
+  .navbar-links a:hover,
+  .navbar-links a:focus {
+    color: rgb(219, 88, 88);
+  }
+
+  .hamburger-toggle {
+    display: none;
+  } */
+
+  .profile-bg {
+    height: 42.5rem;
+  }
+
+  .profile-img {
+    max-width: 18rem;
+  }
+
+  .name-and-job-title {
+    top: 32.5rem;
+  }
+
+  .name {
+    font-size: 1.2rem;
+  }
+
+  .job-title {
+    font-size: 1rem;
+  }
+
+  .about-me p {
+    font-size: 0.8rem;
+  }
+
+  .skillset-grid {
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 3px; */
+  }
+}
+
+@media(min-width: 768px) {
   .navbar-links {
     display: block;
     position: static;
@@ -242,32 +312,6 @@ img {
     display: none;
   }
 
-  .profile-bg {
-    height: 42.5rem;
-  }
-
-  .profile-img {
-    max-width: 18rem;
-  }
-
-  .name-and-job-title {
-    top: 32.5rem;
-  }
-
-  .name {
-    font-size: 1.2rem;
-  }
-
-  .job-title {
-    font-size: 1rem;
-  }
-
-  .about-me p {
-    font-size: 0.8rem;
-  }
-}
-
-@media(min-width: 1200px) {
   .navbar-links a {
     font-size: 1.1rem;
   }
@@ -298,6 +342,18 @@ img {
   }
 
   .about-me p {
+    font-size: 1rem;
+  }
+
+  .skillset-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .skillset-img {
+    width: 3rem;
+  }
+
+  .skill-item h5 {
     font-size: 1rem;
   }
 }
