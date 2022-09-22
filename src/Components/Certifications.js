@@ -1,7 +1,8 @@
 import React from "react"
 import scrimbaLogo from "../img/scrimba.jpg" 
 import udacityLogo from "../img/udacity.png"
-import courseraLogo from "../img/coursera" 
+import courseraLogo from "../img/coursera.png"
+import ibmLogo from "../img/ibm.png" 
 
 export default function Certifications() {
   return (
@@ -10,48 +11,38 @@ export default function Certifications() {
         
         <div className="cert-grid">
             <div className="cert-item">
-                <img src={reactLogo} alt="React" className="cert-img" />
-                <h4>React</h4>
+                <img src={scrimbaLogo} alt="Scrimba Logo" className="cert-img" />
+                <h4><a href="https://scrimba.com/learn/frontend">Frontend Developer Career Path</a></h4>
             </div>
 
             <div className="cert-item">
-                <img src={nextjsLogo} alt="Next.js" className="cert-img" />
-                <h4>Next.js</h4>
+                <img src={udacityLogo} alt="Udacity Logo" className="cert-img" />
+                <h4><a href="https://confirm.udacity.com/SP4CWSWA">Nanodegree, Intro to Programming</a></h4>
             </div>
 
             <div className="cert-item">
-                <img src={javascriptLogo} alt="JavaScript" className="cert-img" />
-                <h4>JavaScript</h4>
+                <img src={courseraLogo} alt="Coursera Logo" className="cert-img" />
+                <h4><a href="https://www.coursera.org/account/accomplishments/certificate/8SPFY8R4EGWD">Crash Course on Python</a></h4>
             </div>
 
             <div className="cert-item">
-                <img src={htmlLogo} alt="HTML" className="cert-img" />
-                <h4>HTML</h4>
+                <img src={ibmLogo} alt="IBM Logo" className="cert-img" />
+                <h4><a href="https://www.credly.com/badges/6948d528-484e-4852-aac4-06dd0d83ac1a?source=linked_in_profile">Python for Data Science</a></h4>
             </div>
 
             <div className="cert-item">
-                <img src={cssLogo} alt="CSS" className="cert-img" />
-                <h4>CSS</h4>
+                <img src={ibmLogo} alt="IBM Logo" className="cert-img" />
+                <h4><a href="https://www.credly.com/badges/8d1754ea-c6b1-4a59-a09f-467b61222145?source=linked_in_profile">Data Science Foundations - Level 1</a></h4>
             </div>
 
             <div className="cert-item">
-                <img src={figmaLogo} alt="Figma" className="cert-img" />
-                <h4>Figma</h4>
+                <img src={ibmLogo} alt="IBM Logo" className="cert-img" />
+                <h4><a href="https://www.credly.com/badges/ea4d698b-f1ad-4893-9962-a7930932eef3?source=linked_in_profile">Data Science Foundations - Level 2</a></h4>
             </div>
 
             <div className="cert-item">
-                <img src={gitLogo} alt="Git" className="cert-img" />
-                <h4>Git</h4>
-            </div>
-
-            <div className="cert-item">
-                <img src={githubLogo} alt="Github" className="cert-img" />
-                <h4>Github</h4>
-            </div>
-
-            <div className="cert-item">
-                <img src={api} alt="REST APIs" className="cert-img" />
-                <h4>REST APIs</h4>
+                <img src={ibmLogo} alt="IBM Logo" className="cert-img" />
+                <h4><a href="https://www.credly.com/badges/71edcf2f-679d-486b-a5b0-fe6bf4a3d399?source=linked_in_profile">Data Science Methodologies</a></h4>
             </div>
         </div>
     </section>
