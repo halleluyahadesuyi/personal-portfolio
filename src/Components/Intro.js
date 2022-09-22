@@ -9,6 +9,7 @@ import figmaLogo from "../img/figma.png"
 import gitLogo from "../img/git.png"
 import githubLogo from "../img/github.png"
 import api from "../img/api.png"
+import emailIcon from "../img/email-icon.png"
 
 export default function Intro() {
   return (
@@ -28,7 +29,7 @@ export default function Intro() {
         </p>
         
         <div className="skillset">
-            <h4>Languages/Tools I utilize:</h4>
+            <h4>Languages and Tools I utilize:</h4>
             
             <div className="skillset-grid">
                 <div className="skill-item">
@@ -77,6 +78,15 @@ export default function Intro() {
                 </div>
             </div>
         </div>
+
+        <a href="mailto:adesuyihalleluyah@gmail.com" className="get-in-touch-intro">
+            <h5>Get in touch!</h5>
+            <img 
+                src={emailIcon}
+                alt="Email Icon"
+                className="email-icon"
+            />
+        </a>
     </section>
   )
 }

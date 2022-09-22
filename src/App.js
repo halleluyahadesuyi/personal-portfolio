@@ -1,6 +1,7 @@
 import Nav from "./Components/Nav"
 import Profile from "./Components/Profile"
 import Intro from "./Components/Intro"
+import Certifications from "./Components/Certifications"
 import "./App.css"
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       <Profile />
 
       <Intro />
+
+      <Certifications />
     </div>
   );
 }

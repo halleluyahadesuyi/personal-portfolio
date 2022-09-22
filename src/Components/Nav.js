@@ -16,8 +16,8 @@ export default function Nav() {
             className="logo"
         />
 
-        <a href="mailto:adesuyihalleluyah@gmail.com" className="get-in-touch">
-            <h5>Get in touch!</h5>
+        <a href="mailto:adesuyihalleluyah@gmail.com" className="get-in-touch-navbar">
+            <h5>GET IN TOUCH!</h5>
             <img 
                 src={emailIcon}
                 alt="Email Icon"

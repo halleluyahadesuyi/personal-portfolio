@@ -33,28 +33,49 @@ img {
   margin: 1rem 0 1em 1rem;
 }
 
-.get-in-touch {
+.get-in-touch-navbar,
+.get-in-touch-intro {
   display: flex;
   color: white;
-  border: 1px solid white;
   border-radius: 3px;
-  padding: 0.2rem 0.4rem;
   text-decoration: none;
+  align-items: center;
 }
 
-.get-in-touch:hover,
-.get-in-touch:focus {
+.get-in-touch-navbar {
+  padding: 0.2rem 0.4rem;
+  border: 1px solid white;
+}
+
+.get-in-touch-navbar:hover,
+.get-in-touch-navbar:focus {
   background: white;
   color: rgb(7, 7, 49);
   border: 2px dashed rgb(7, 7, 49);
 }
 
-.get-in-touch h5 {
+.get-in-touch-navbar h5 {
   padding-right: 0.3rem;
 }
 
-.get-in-touch .email-icon {
+.get-in-touch-navbar .email-icon {
   width: 1.4rem;
+}
+
+.get-in-touch-intro {
+  padding: 0.6rem 0.8rem;
+  border: 2px solid white;
+  margin-top: 3rem;
+}
+
+.get-in-touch-intro h5 {
+  padding-right: 0.3rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.get-in-touch-intro .email-icon {
+  width: 1.5rem;
 }
 
 .navbar-links {
@@ -174,12 +195,8 @@ img {
 }
 
 .skillset-grid {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* gap: 5px; */
   justify-content: center;
 }
 
@@ -355,5 +372,26 @@ img {
 
   .skill-item h5 {
     font-size: 1rem;
+  }
+
+  /* .get-in-touch-intro {
+    padding: 0.4rem 0.6rem;
+    border: 2px solid white;
+    margin-top: 3rem;
+  } */
+  
+  .get-in-touch-intro:hover,
+  .get-in-touch-intro:focus {
+    background: white;
+    color: rgb(87, 7, 87);
+    border: 2px dashed rgb(87, 7, 87);
+  }
+  
+  .get-in-touch-intro h5 {
+    font-size: 1.2rem;
+  }
+  
+  .get-in-touch-intro .email-icon {
+    width: 1.8rem;
   }
 }
