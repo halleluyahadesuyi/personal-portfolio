@@ -7,6 +7,8 @@ import htmlLogo from "../img/html.png"
 import cssLogo from "../img/css.png"
 import figmaLogo from "../img/figma.png"
 import gitLogo from "../img/git.png"
+import githubLogo from "../img/github.png"
+import api from "../img/api.png"
 
 export default function Intro() {
   return (
@@ -28,7 +30,7 @@ export default function Intro() {
         <div className="skillset">
             <h4>Languages/Tools I utilize:</h4>
             
-            <div className="skillset-flex">
+            <div className="skillset-grid">
                 <div className="skill-item">
                     <img src={reactLogo} alt="React" className="skillset-img" />
                     <h5>React</h5>
@@ -62,6 +64,16 @@ export default function Intro() {
                 <div className="skill-item">
                     <img src={gitLogo} alt="Git" className="skillset-img" />
                     <h5>Git</h5>
+                </div>
+
+                <div className="skill-item">
+                    <img src={githubLogo} alt="Github" className="skillset-img" />
+                    <h5>Github</h5>
+                </div>
+
+                <div className="skill-item">
+                    <img src={api} alt="REST APIs" className="skillset-img" />
+                    <h5>REST APIs</h5>
                 </div>
             </div>
         </div>
