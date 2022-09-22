@@ -215,7 +215,6 @@ img {
 .skillset-grid,
 .cert-grid {
   display: grid;
-  justify-content: center;
 }
 
 .skillset-grid {
@@ -224,7 +223,7 @@ img {
 
 .cert-grid {
   grid-template-columns: repeat(1, 1fr);
-  gap: 1rem;
+  row-gap: 1rem;
 }
 
 .skill-item,
@@ -244,6 +243,10 @@ img {
   width: 4rem;
 }
 
+.cert-item {
+  text-align: center;
+}
+
 .cert-item p {
   font-size: 0.8rem;
   color: black;
@@ -258,44 +261,6 @@ img {
   .get-in-touch {
     font-size: 1.2rem;
   }
-
-  /* .navbar-links {
-    display: block;
-    position: static;
-  }
-
-  .navbar-links ul {
-    display: flex;
-    align-items: center;
-    margin-right: 1rem;
-  }
-
-  .navbar-links li {
-    padding: 0;
-    border-bottom: none;
-    background: none;
-  }
-
-  .navbar-links li:hover,
-  .navbar-links li:focus {
-    background: rgba(75, 75, 122, 0.5);
-    padding: 0.5rem;
-    border-radius: 5px;
-  }
-
-  .navbar-links a {
-    padding: 0 1.5rem;
-    font-size: 1rem;
-  }
-
-  .navbar-links a:hover,
-  .navbar-links a:focus {
-    color: rgb(219, 88, 88);
-  }
-
-  .hamburger-toggle {
-    display: none;
-  } */
 
   .profile-bg {
     height: 42.5rem;
@@ -323,7 +288,11 @@ img {
 
   .skillset-grid {
     grid-template-columns: repeat(3, 1fr);
-    /* gap: 3px; */
+  }
+
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.5rem;
   }
 }
 
@@ -347,7 +316,6 @@ img {
 
   .navbar-links li:hover,
   .navbar-links li:focus {
-    /* background: rgba(107, 65, 116, 0.5); */
     background: rgba(75, 75, 122, 0.5);
     padding: 0.5rem;
     border-radius: 5px;
@@ -397,7 +365,7 @@ img {
   }
 
   .about-me p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .skillset-grid {
@@ -412,12 +380,6 @@ img {
     font-size: 1rem;
   }
 
-  /* .get-in-touch-intro {
-    padding: 0.4rem 0.6rem;
-    border: 2px solid white;
-    margin-top: 3rem;
-  } */
-  
   .get-in-touch-intro:hover,
   .get-in-touch-intro:focus {
     background: white;
@@ -431,5 +393,16 @@ img {
   
   .get-in-touch-intro .email-icon {
     width: 1.8rem;
+  }
+
+  .cert-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 80%;
+  }
+
+  .cert-img {
+    margin-right: 1rem;
+    width: 4rem;
   }
 }
