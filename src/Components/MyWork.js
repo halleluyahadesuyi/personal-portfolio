@@ -14,14 +14,17 @@ export default function MyWork(props) {
         />
 
         <div>
-            <img src={props.src} alt={props.alt} />
+            <img src={props.src} alt={props.alt} className="project-img" />
             <h2>{props.name}</h2>
 
-            <div>
-                <ul>
-                    <li>{props.utilized}</li>
-                </ul>
-            </div>
+            
+            <p className="tech-used">
+                <span className="tech">{props.tech1}</span>
+                <span className="tech">{props.tech2}</span>
+                <span className="tech">{props.tech3}</span>
+                <span className="tech">{props.tech4}</span>
+                <span className="tech">{props.tech5}</span>
+            </p>
             
             <p>{props.description}</p>
 

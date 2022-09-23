@@ -252,6 +252,15 @@ img {
   color: black;
 }
 
+.tech {
+  border: 2px solid red;
+  margin: 0 1rem;
+}
+
+.project-img {
+  max-width: 5rem;
+}
+
 /* ---------MEDIA QUERIES--------- */
 @media(min-width: 420px) {
   .logo {
