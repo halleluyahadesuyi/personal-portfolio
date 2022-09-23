@@ -24,6 +24,7 @@ export default function MyWork(props) {
                 <span className="tech">{props.tech3}</span>
                 <span className="tech">{props.tech4}</span>
                 <span className="tech">{props.tech5}</span>
+                <span className="tech">{props.tech6}</span>
             </p>
             
             <p>{props.description}</p>

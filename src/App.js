@@ -24,7 +24,7 @@ function App() {
 
       <MyWork 
         src={imageGallery}
-        alt="Responsive Image Gallery App"
+        alt="responsive image gallery app"
         name="Responsive Image Gallery App"
         tech1="React" tech2="Unsplash API" tech3="JavaScript"
         tech4="CSS" tech5="HTML"
@@ -34,43 +34,42 @@ function App() {
       />
       <MyWork 
         src={chromeExtension}
-        alt="Chrome Extension"
+        alt="chrome extension"
         name="Chrome Extension"
-        tech1="JavaScript" tech2="GeoLocation Web API" tech3="OpenWeatherMap API"
-        tech4="CSS" tech5="HTML"
+        tech1="JavaScript" tech2="GeoLocation Web API"  tech3="CoinGecko API" tech4="OpenWeatherMap API" tech5="CSS" tech6="HTML"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        liveDemo=""
-        github=""
+        liveDemo="https://chrome-dashboard-extension-using-coingecko-api.netlify.app/"
+        github="https://github.com/halleluyahadesuyi/chrome-dashboard-extension-using-coingecko-api"
       />
       <MyWork 
-        src=""
-        alt=""
-        name=""
+        src={businessPage}
+        alt="business landing page"
+        name="A Business Landing Page"
         tech1="React" tech2="Unsplash API" tech3="JavaScript"
         tech4="HTML" tech5="CSS"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        liveDemo=""
-        github=""
+        liveDemo="https://business-landing-page-plus-subscription.netlify.app/"
+        github="https://github.com/halleluyahadesuyi/business-landing-page"
       />
       <MyWork 
-        src=""
-        alt=""
-        name=""
+        src={survivorGame}
+        alt="survivor game"
+        name="A Thrilling Survivor Game"
         tech1="React" tech2="Unsplash API" tech3="JavaScript"
         tech4="HTML" tech5="CSS"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        liveDemo=""
-        github=""
+        liveDemo="https://thrilling-survivor-game-wizard-and-monsters.netlify.app/"
+        github="https://github.com/halleluyahadesuyi/thrilling-survivor-game-wizard-and-monsters"
       />
       <MyWork 
-        src=""
-        alt=""
-        name=""
-        tech1="React" tech2="Unsplash API" tech3="JavaScript"
+        src={comingSoonest}
+        alt="ongoing project"
+        name="React E-Commerce Website"
+        tech1="React" tech2="GraphQL" tech3="JavaScript"
         tech4="HTML" tech5="CSS"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        liveDemo=""
-        github=""
+        liveDemo="#"
+        github="#"
       />
     </div>
   );
