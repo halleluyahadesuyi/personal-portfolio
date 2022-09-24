@@ -173,7 +173,7 @@ img {
   padding: 2rem 0 3rem 0;
 }
 
-.about-me .underline {
+.underline {
   width: 7rem;
 }
 
@@ -257,18 +257,54 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: justify;
+  color: white;
+  background: rgb(87, 7, 87);
+  padding: 2rem;
 }
 
-.tech {
-  border: 2px solid red;
-  margin: 0 1rem;
+.italicize {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin: 0.3rem 0;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2.5rem;
+  margin: 2rem 0;
 }
 
 .project-img {
-  max-width: 5rem;
+  width: 100%;
+  border: 2px solid rgb(7, 7, 49);
+  border-radius: 0.5rem;
 }
 
+.tech {
+  border-radius: 5px;
+  padding: 2px 5px;
+  /* margin-right: 1.5rem; */
+  background: rgba(147, 185, 255, 0.3);
+}
 
+.description {
+  /* font-size: 0.8rem; */
+}
+
+.liveDemo-and-github,
+.github-flex {
+  display: flex;
+  align-items: center;
+}
+
+.live-demo {
+  margin-right: 2rem;
+}
+
+.github-logo {
+  width: 1.5rem;
+}
 
 /* ---------MEDIA QUERIES--------- */
 @media(min-width: 420px) {
@@ -426,5 +462,11 @@ img {
   .cert-img {
     margin-right: 1rem;
     width: 4rem;
+  }
+
+  .cert-item a:hover,
+  .cert-item a:focus {
+    color: rgb(219, 88, 88);
+    text-decoration: underline;
   }
 }

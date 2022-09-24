@@ -5,7 +5,7 @@ export default function MyWork(props) {
   return (
     <div className="each-project">
         <img src={props.src} alt={props.alt} className="project-img" />
-        <h2>{props.name}</h2>
+        <h4>{props.name}</h4>
 
         <p className="tech-used">
             <span className="tech">{props.tech1}</span>
@@ -16,13 +16,13 @@ export default function MyWork(props) {
             <span className="tech">{props.tech6}</span>
         </p>
         
-        <p>{props.description}</p>
+        <p className="description">{props.description}</p>
 
-        <div>
-            <p><a href={props.liveDemo} target="_blank">Live Demo</a></p>
-            <div>
+        <div className="liveDemo-and-github">
+            <p className="live-demo"><a href={props.liveDemo} target="_blank">Live Demo</a></p>
+            <div className="github-flex">
                 <p><a href={props.github} target="_blank">Github</a></p>
-                <img src={githubLogo} alt="Github Logo" />
+                <img src={githubLogo} alt="Github Logo" className="github-logo" />
             </div>
         </div>
     </div>

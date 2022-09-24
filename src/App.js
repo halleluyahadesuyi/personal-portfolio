@@ -24,8 +24,8 @@ function App() {
       <Certifications />
 
       <section className="my-work">
-        <h3>MY WORK</h3>
-        <span>...some of my projects</span>
+        <h2>MY WORK</h2>
+        <span className="italicize">..some of my projects</span>
         <img 
             src={decorativeUnderline}
             alt="Decorative Underline"
