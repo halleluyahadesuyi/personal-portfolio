@@ -273,6 +273,7 @@ img {
   grid-template-columns: repeat(1, 1fr);
   gap: 2.5rem;
   margin: 2rem 0;
+  font-size: 0.7rem;
 }
 
 .project-img {
@@ -281,11 +282,21 @@ img {
   border-radius: 0.5rem;
 }
 
+.project-name {
+  margin: 0.8rem 0;
+  font-size: 0.8rem;
+}
+
 .tech {
+  display: inline-block;
   border-radius: 5px;
   padding: 2px 5px;
-  /* margin-right: 1.5rem; */
+  margin: 0 0.3rem 0.3rem 0;
   background: rgba(147, 185, 255, 0.3);
+}
+
+.tech:empty {
+    display: none;   /* removes empty elements, to prevent styling them like their similar non-empty elements */
 }
 
 .description {
@@ -336,7 +347,8 @@ img {
     font-size: 1rem;
   }
 
-  .about-me p {
+  .about-me p,
+  .projects {
     font-size: 0.8rem;
   }
 
@@ -347,6 +359,10 @@ img {
   .cert-grid {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.5rem;
+  }
+
+  .project-name {
+    font-size: 1rem;
   }
 }
 
@@ -422,7 +438,8 @@ img {
     font-size: 1.3rem;
   }
 
-  .about-me p {
+  .about-me p,
+  .projects {
     font-size: 0.9rem;
   }
 
@@ -468,5 +485,9 @@ img {
   .cert-item a:focus {
     color: rgb(219, 88, 88);
     text-decoration: underline;
+  }
+
+  .project-name {
+    font-size: 1.2rem;
   }
 }
