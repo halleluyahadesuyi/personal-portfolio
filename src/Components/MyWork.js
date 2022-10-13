@@ -1,5 +1,5 @@
 import React from "react"
-import githubLogo from "../img/github.png"
+import githubLogo from "../img/github-myWork.png"
 
 export default function MyWork(props) {
   return (

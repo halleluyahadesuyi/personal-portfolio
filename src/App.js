@@ -26,14 +26,14 @@ function App() {
       <section className="my-work">
         <h2>MY WORK</h2>
         <span className="italicize">..some of my projects</span>
-        <img 
-            src={decorativeUnderline}
-            alt="Decorative Underline"
-            className="underline"
+        <img
+          src={decorativeUnderline}
+          alt="Decorative Underline"
+          className="underline"
         />
 
         <div className="projects">
-          <MyWork 
+          <MyWork
             src={imageGallery}
             alt="responsive image gallery app"
             name="Responsive Image Gallery App"
@@ -43,16 +43,16 @@ function App() {
             liveDemo="https://responsive-image-gallery-using-unsplash-api.netlify.app/"
             github="https://github.com/halleluyahadesuyi/responsive-image-gallery-using-unsplash-api"
           />
-          <MyWork 
+          <MyWork
             src={chromeExtension}
             alt="chrome extension"
             name="Chrome Extension"
-            tech1="JavaScript" tech2="GeoLocation Web API"  tech3="CoinGecko API" tech4="OpenWeatherMap API" tech5="CSS" tech6="HTML"
+            tech1="JavaScript" tech2="GeoLocation Web API" tech3="CoinGecko API" tech4="OpenWeatherMap API" tech5="CSS" tech6="HTML"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             liveDemo="https://chrome-dashboard-extension-using-coingecko-api.netlify.app/"
             github="https://github.com/halleluyahadesuyi/chrome-dashboard-extension-using-coingecko-api"
           />
-          <MyWork 
+          <MyWork
             src={businessPage}
             alt="business landing page"
             name="A Business Landing Page"
@@ -62,7 +62,7 @@ function App() {
             liveDemo="https://business-landing-page-plus-subscription.netlify.app/"
             github="https://github.com/halleluyahadesuyi/business-landing-page"
           />
-          <MyWork 
+          <MyWork
             src={survivorGame}
             alt="survivor game"
             name="A Thrilling Survivor Game"
@@ -72,7 +72,7 @@ function App() {
             liveDemo="https://thrilling-survivor-game-wizard-and-monsters.netlify.app/"
             github="https://github.com/halleluyahadesuyi/thrilling-survivor-game-wizard-and-monsters"
           />
-          <MyWork 
+          <MyWork
             src={comingSoonest}
             alt="ongoing project"
             name="React E-Commerce Website"

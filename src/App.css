@@ -296,11 +296,13 @@ img {
 }
 
 .tech:empty {
-    display: none;   /* removes empty elements, to prevent styling them like their similar non-empty elements */
+    display: none;   /* removes empty elements,
+    to prevent styling them like their similar
+    non-empty elements */
 }
 
 .description {
-  /* font-size: 0.8rem; */
+  margin: 1rem 0;
 }
 
 .liveDemo-and-github,
@@ -309,12 +311,27 @@ img {
   align-items: center;
 }
 
+.liveDemo-and-github a {
+  color: #93b9ff;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+}
+
+.live-demo,
+.github-flex {
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 0.5rem;
+}
+
 .live-demo {
   margin-right: 2rem;
 }
 
 .github-logo {
-  width: 1.5rem;
+  width: 1.2rem;
+  margin-left: 0.2rem;
 }
 
 /* ---------MEDIA QUERIES--------- */
