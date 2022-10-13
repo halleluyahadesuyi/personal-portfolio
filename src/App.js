@@ -37,6 +37,7 @@ function App() {
           <MyWork
             src={imageGallery}
             alt="responsive image gallery app"
+            projectLink="https://responsive-image-gallery-using-unsplash-api.netlify.app/"
             name="Responsive Image Gallery App"
             tech1="React" tech2="Unsplash API" tech3="JavaScript"
             tech4="CSS" tech5="HTML"
@@ -47,6 +48,7 @@ function App() {
           <MyWork
             src={chromeExtension}
             alt="chrome extension"
+            projectLink="https://chrome-dashboard-extension-using-coingecko-api.netlify.app/"
             name="Chrome Extension"
             tech1="JavaScript" tech2="GeoLocation Web API" tech3="CoinGecko API" tech4="OpenWeatherMap API" tech5="CSS" tech6="HTML"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -56,6 +58,7 @@ function App() {
           <MyWork
             src={businessPage}
             alt="business landing page"
+            projectLink="https://business-landing-page-plus-subscription.netlify.app/"
             name="A Business Landing Page"
             tech1="React" tech2="Unsplash API" tech3="JavaScript"
             tech4="HTML" tech5="CSS"
@@ -66,6 +69,7 @@ function App() {
           <MyWork
             src={survivorGame}
             alt="survivor game"
+            projectLink="https://thrilling-survivor-game-wizard-and-monsters.netlify.app/"
             name="A Thrilling Survivor Game"
             tech1="React" tech2="Unsplash API" tech3="JavaScript"
             tech4="HTML" tech5="CSS"

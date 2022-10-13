@@ -4,7 +4,9 @@ import githubLogo from "../img/github-myWork.png"
 export default function MyWork(props) {
   return (
     <section className="each-project">
-        <img src={props.src} alt={props.alt} className="project-img" />
+        <a href={props.projectLink} target="_blank">
+          <img src={props.src} alt={props.alt} className="project-img" />
+        </a>
         <h4 className="project-name">{props.name}<span className="soonest">{props.soonest}</span></h4>
 
         <section className="tech-used">
