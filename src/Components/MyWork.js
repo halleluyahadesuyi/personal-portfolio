@@ -5,7 +5,7 @@ export default function MyWork(props) {
   return (
     <section className="each-project">
         <img src={props.src} alt={props.alt} className="project-img" />
-        <h4 className="project-name">{props.name}</h4>
+        <h4 className="project-name">{props.name}<span className="soonest">{props.soonest}</span></h4>
 
         <section className="tech-used">
             <span className="tech">{props.tech1}</span>
@@ -19,10 +19,17 @@ export default function MyWork(props) {
         <p className="description">{props.description}</p>
 
         <section className="liveDemo-and-github">
-            <p className="live-demo"><a href={props.liveDemo} target="_blank">Live Demo</a></p>
+            <p className="live-demo">
+              <a href={props.liveDemo} target="_blank">Live Demo</a>
+            </p>
+
             <div className="github-flex">
-                <p><a href={props.github} target="_blank">Github</a></p>
-                <img src={githubLogo} alt="Github Logo" className="github-logo" />
+                <p>
+                  <a href={props.github} target="_blank">Github
+                    <img src={githubLogo} alt="Github Logo" className="github-logo" />
+                  
+                  </a>
+                </p>
             </div>
         </section>
     </section>

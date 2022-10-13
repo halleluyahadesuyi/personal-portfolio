@@ -276,6 +276,15 @@ img {
   font-size: 0.7rem;
 }
 
+.soonest {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.soonest:empty {
+  display: none;
+}
+
 .project-img {
   width: 100%;
   border: 2px solid rgb(7, 7, 49);
@@ -284,7 +293,7 @@ img {
 
 .project-name {
   margin: 0.8rem 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .tech {
@@ -325,13 +334,17 @@ img {
   padding: 0.5rem;
 }
 
+.each-project:last-child {
+  pointer-events: none;
+}
+
 .live-demo {
   margin-right: 2rem;
 }
 
 .github-logo {
   width: 1.2rem;
-  margin-left: 0.2rem;
+  padding-left: 0.2rem;
 }
 
 /* ---------MEDIA QUERIES--------- */
