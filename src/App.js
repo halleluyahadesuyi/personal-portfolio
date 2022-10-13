@@ -2,6 +2,7 @@ import Nav from "./Components/Nav"
 import Profile from "./Components/Profile"
 import AboutMe from "./Components/AboutMe"
 import Certifications from "./Components/Certifications"
+import Footer from "./Components/Footer"
 import decorativeUnderline from "./img/line-star-line.png"
 import MyWork from "./Components/MyWork"
 import imageGallery from "./img/image-gallery.png"
@@ -75,7 +76,7 @@ function App() {
           <MyWork
             src={comingSoonest}
             alt="ongoing project"
-            name="React E-Commerce Website"
+            name="React E-Commerce Website ---"
             soonest=" coming soon"
             tech1="React" tech2="GraphQL" tech3="JavaScript"
             tech4="HTML" tech5="CSS"
@@ -86,7 +87,7 @@ function App() {
         </div>
       </section>
 
-      <footer>Copyright &copy; Halleluyah Adesuyi 2022</footer>
+      <Footer />
     </div>
   );
 }

@@ -23,14 +23,14 @@ export default function MyWork(props) {
               <a href={props.liveDemo} target="_blank">Live Demo</a>
             </p>
 
-            <div className="github-flex">
-                <p>
-                  <a href={props.github} target="_blank">Github
-                    <img src={githubLogo} alt="Github Logo" className="github-logo" />
-                  
+            <section>
+                <p className="github-group">
+                  <a href={props.github} target="_blank" className="github-flex">
+                    <span>Github</span>
+                    <img src={githubLogo} alt="Github Logo" className="github-logo" />   
                   </a>
                 </p>
-            </div>
+            </section>
         </section>
     </section>
   )

@@ -209,7 +209,6 @@ img {
 
 .cert-item a {
   font-size: 0.9rem;
-  text-decoration: none;
 }
 
 .skillset-grid,
@@ -334,8 +333,11 @@ img {
   padding: 0.5rem;
 }
 
-.each-project:last-child {
+.each-project:last-child .liveDemo-and-github p,
+.each-project:last-child .liveDemo-and-github a {
   pointer-events: none;
+  color: grey;
+  border-color: grey;
 }
 
 .live-demo {
@@ -344,8 +346,19 @@ img {
 
 .github-logo {
   width: 1.2rem;
-  padding-left: 0.2rem;
+  margin-left: 0.2rem;
+  opacity: 0.6;
 }
+
+footer {
+  background: rgb(7, 7, 49);
+  color: white;
+  font-size: 0.8rem;
+  padding: 1.5rem;
+  text-align: center;
+  border-top: 5px solid rgb(219, 88, 88);
+}
+
 
 /* ---------MEDIA QUERIES--------- */
 @media(min-width: 420px) {
@@ -391,8 +404,9 @@ img {
     row-gap: 1.5rem;
   }
 
-  .project-name {
-    font-size: 1rem;
+  .project-name,
+  footer {
+    font-size: 0.9rem;
   }
 }
 
@@ -519,5 +533,9 @@ img {
 
   .project-name {
     font-size: 1.2rem;
+  }
+
+  footer {
+    font-size: 1rem;
   }
 }
