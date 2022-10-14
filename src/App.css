@@ -436,12 +436,6 @@ footer {
     background: none;
   }
 
-  /* .navbar-links li:focus {
-    background: rgba(75, 75, 122, 0.5);
-    padding: 0.5rem;
-    border-radius: 5px;
-  } */
-
   .navbar-links a {
     padding: 0 1.5rem;
     font-size: 1rem;
