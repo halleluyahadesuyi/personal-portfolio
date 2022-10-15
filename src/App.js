@@ -58,7 +58,7 @@ function App() {
             alt="chrome extension"
             projectLink="https://chrome-dashboard-extension-using-coingecko-api.netlify.app/"
             name="Chrome Extension"
-            tech1="JavaScript" tech2="GeoLocation Web API" tech3="CoinGecko API" tech4="OpenWeatherMap API" tech5="CSS" tech6="HTML"
+            tech1="JavaScript" tech2="CoinGecko API" tech3="GeoLocation Web API" tech4="OpenWeatherMap API" tech5="CSS" tech6="HTML"
             description="This provides a solution to the challenge of seeing a
                           blank page every time a new tab or window is launched on Chrome browser.
                           Instead, the user sees random background pictures, CoinGecko API retrieves dogecoin market values. I also used Geolocation Web API and OpenWeatherMap API which returns user's current location and weather conditions respectively."
@@ -70,9 +70,10 @@ function App() {
             alt="business landing page"
             projectLink="https://business-landing-page-plus-subscription.netlify.app/"
             name="A Business Landing Page"
-            tech1="React" tech2="Unsplash API" tech3="JavaScript"
-            tech4="HTML" tech5="CSS"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            tech1="HTML" tech2="CSS"
+            description="As part of the requirements of a software development program I underwent in year 2020,
+                          I built a prototype business landing page app where I also made provision
+                          for users to make a pseudo-subscription to a newsletter via the HTML form input field."
             liveDemo="https://business-landing-page-plus-subscription.netlify.app/"
             github="https://github.com/halleluyahadesuyi/business-landing-page"
           />
@@ -81,9 +82,9 @@ function App() {
             alt="survivor game"
             projectLink="https://thrilling-survivor-game-wizard-and-monsters.netlify.app/"
             name="A Thrilling Survivor Game"
-            tech1="React" tech2="Unsplash API" tech3="JavaScript"
-            tech4="HTML" tech5="CSS"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            tech1="JavaScript" tech2="HTML" tech3="CSS"
+            description="This game was implemented using exported and imported JavaScript files to separate
+            the game's parts into manageable code sections. Using locally stored data as reference, 3 monsters switch places as a wizard’s health bar decreases, of which the game ends when either the wizard or monsters health bar indicator reduces to 0. The survivor is then declared the winner. I also utilized Google Fonts for easier cross-browser font accessibility."
             liveDemo="https://thrilling-survivor-game-wizard-and-monsters.netlify.app/"
             github="https://github.com/halleluyahadesuyi/thrilling-survivor-game-wizard-and-monsters"
           />
@@ -94,7 +95,7 @@ function App() {
             soonest=" coming soon"
             tech1="React" tech2="GraphQL" tech3="JavaScript"
             tech4="HTML" tech5="CSS"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            description="This project uses GraphQL, a data query language which is a more effective alternative to REST APIs, due to its lesser network traffic consumption. This website uses more advanced React features like React Routers for optimized page-to-page navigation when users are making their online goods purchase."
             liveDemo="#"
             github="#"
           />
