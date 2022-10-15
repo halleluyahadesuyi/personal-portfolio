@@ -45,9 +45,11 @@ function App() {
             tech1="React" tech2="Unsplash API" tech3="JavaScript"
             tech4="CSS" tech5="HTML"
             description="My goal for this project was to create a platform which would be
-                          a mini-clone of the popular Unsplash App. I implemented my own personal
-                          designs, and added some cool features like a colour-changing background
-                          and a customized modal interface. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                          a mini-clone of the popular Unsplash App. I implemented my visual
+                          designs with CSS, and added some cool features like a colour-changing background
+                          and a customized modal interface. I used React Hooks such as UseState 
+                          and UseEffect to control data flow within the app, and also Unsplash API 
+                          to retrieve images from user's unique search results."
             liveDemo="https://responsive-image-gallery-using-unsplash-api.netlify.app/"
             github="https://github.com/halleluyahadesuyi/responsive-image-gallery-using-unsplash-api"
           />
@@ -57,7 +59,9 @@ function App() {
             projectLink="https://chrome-dashboard-extension-using-coingecko-api.netlify.app/"
             name="Chrome Extension"
             tech1="JavaScript" tech2="GeoLocation Web API" tech3="CoinGecko API" tech4="OpenWeatherMap API" tech5="CSS" tech6="HTML"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            description="This provides a solution to the challenge of seeing a
+                          blank page every time a new tab or window is launched on Chrome browser.
+                          Instead, the user sees random background pictures, CoinGecko API retrieves dogecoin market values. I also used Geolocation Web API and OpenWeatherMap API which returns user's current location and weather conditions respectively."
             liveDemo="https://chrome-dashboard-extension-using-coingecko-api.netlify.app/"
             github="https://github.com/halleluyahadesuyi/chrome-dashboard-extension-using-coingecko-api"
           />
