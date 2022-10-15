@@ -10,6 +10,7 @@ import Footer from "./Components/Footer"
 import decorativeUnderline from "./img/line-star-line.png"
 import imageGallery from "./img/image-gallery.png"
 import chromeExtension from "./img/chrome-extension.PNG"
+import personalPortfolio from "./img/personal-portfolio.PNG"
 import businessPage from "./img/business-page.PNG"
 import survivorGame from "./img/survivor-game.PNG"
 import comingSoonest from "./img/coming-soonest.png"
@@ -53,6 +54,7 @@ function App() {
             liveDemo="https://responsive-image-gallery-using-unsplash-api.netlify.app/"
             github="https://github.com/halleluyahadesuyi/responsive-image-gallery-using-unsplash-api"
           />
+
           <MyWork
             src={chromeExtension}
             alt="chrome extension"
@@ -65,6 +67,18 @@ function App() {
             liveDemo="https://chrome-dashboard-extension-using-coingecko-api.netlify.app/"
             github="https://github.com/halleluyahadesuyi/chrome-dashboard-extension-using-coingecko-api"
           />
+
+          <MyWork
+            src={personalPortfolio}
+            alt="personal portfolio"
+            projectLink="https://personal-portfolio-halleluyah-adesuyi.netlify.app/"
+            name="Personal Portfolio"
+            tech1="React" tech2="JavaScript" tech3="CSS" tech4="HTML" tech5="Window.ScrollTo Web API"
+            description="You are here! 😃🎉. I built this centralized app for you to know me more and to also display some of my personal projects. Creating several React Components to accomplish this, I also used a web API (window.ScrollTo) for easier scrolling within the app, and to further improve user's experience on my app."
+            liveDemo="https://personal-portfolio-halleluyah-adesuyi.netlify.app/"
+            github="https://github.com/halleluyahadesuyi/personal-portfolio"
+          />
+
           <MyWork
             src={businessPage}
             alt="business landing page"
@@ -77,6 +91,7 @@ function App() {
             liveDemo="https://business-landing-page-plus-subscription.netlify.app/"
             github="https://github.com/halleluyahadesuyi/business-landing-page"
           />
+
           <MyWork
             src={survivorGame}
             alt="survivor game"
@@ -84,10 +99,11 @@ function App() {
             name="A Thrilling Survivor Game"
             tech1="JavaScript" tech2="HTML" tech3="CSS"
             description="This game was implemented using exported and imported JavaScript files to separate
-            the game's parts into manageable code sections. Using locally stored data as reference, 3 monsters switch places as a wizard’s health bar decreases, of which the game ends when either the wizard or monsters health bar indicator reduces to 0. The survivor is then declared the winner. I also utilized Google Fonts for easier cross-browser font accessibility."
+                          the game's parts into manageable code sections. Using locally stored data as reference, 3 monsters switch places as a wizard’s health bar decreases, of which the game ends when either the wizard or monsters health bar indicator reduces to 0. The survivor is then declared the winner. I also utilized Google Fonts for easier cross-browser font accessibility."
             liveDemo="https://thrilling-survivor-game-wizard-and-monsters.netlify.app/"
             github="https://github.com/halleluyahadesuyi/thrilling-survivor-game-wizard-and-monsters"
           />
+
           <MyWork
             src={comingSoonest}
             alt="ongoing project"
@@ -95,7 +111,8 @@ function App() {
             soonest=" coming soon"
             tech1="React" tech2="GraphQL" tech3="JavaScript"
             tech4="HTML" tech5="CSS"
-            description="This project uses GraphQL, a data query language which is a more effective alternative to REST APIs, due to its lesser network traffic consumption. This website uses more advanced React features like React Routers for optimized page-to-page navigation when users are making their online goods purchase."
+            description="This project uses GraphQL, a data query language which is a more effective 
+                          alternative to REST APIs, due to its lesser network traffic consumption. This website uses a Shopping Cart interface and some advanced React features like React Routers for optimized page-to-page navigation when users are making their online goods purchase. The focus of this app is to further implement using the available technologies of UseState, UseEffect and some customized React Hooks."
             liveDemo="#"
             github="#"
           />
