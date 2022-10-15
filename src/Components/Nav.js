@@ -1,5 +1,6 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import ScrollToTop from "react-scroll-to-top"
+
 import logo from "../img/logo.png"
 import emailIcon from "../img/email-icon.png"
 
@@ -9,8 +10,16 @@ export default function Nav() {
         navbarLinks.classList.toggle("navbar-links-active")
     }
 
+    const scrollToBottom = (scrollHeight) => {
+        window.scrollTo({
+          top: scrollHeight,
+          behavior: 'smooth',
+        })
+      }
+
     return (
         <nav className="navbar">
+            <ScrollToTop />
             <img
                 src={logo}
                 alt="brand logo"
@@ -28,10 +37,23 @@ export default function Nav() {
 
             <div className="navbar-links">
                 <ul>
-                    <li><Link to="/">-</Link></li>
-                    <li><Link to="/about">ABOUT</Link></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li className="link">
+                        <a onClick={(e) => {
+                            e.preventDefault()
+                            scrollToBottom(660)}} href="about">ABOUT
+                        </a>
+                    </li>
+                    <li className="link">
+                        <a onClick={(e) => {
+                            e.preventDefault()
+                            scrollToBottom(1660)}} href="portfolio">PORTFOLIO
+                        </a>
+                    </li>
+                    <li className="link">
+                        <a onClick={(e) => {
+                            e.preventDefault()
+                            scrollToBottom(5303)}} href="contact">CONTACT</a>
+                    </li>
                 </ul>
             </div>
 
