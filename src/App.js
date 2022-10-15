@@ -74,7 +74,7 @@ function App() {
             projectLink="https://personal-portfolio-halleluyah-adesuyi.netlify.app/"
             name="Personal Portfolio"
             tech1="React" tech2="JavaScript" tech3="CSS" tech4="HTML" tech5="Window.ScrollTo Web API"
-            description="You are here! 😃🎉. I built this centralized app for you to know me more and to also display some of my personal projects. Creating several React Components to accomplish this, I also used a web API (window.ScrollTo) for easier scrolling within the app, and to further improve user's experience on my app."
+            description="You are here! 😃🎉. I built this centralized app for you to know me more and to also display some of my personal projects. Creating several React Components to accomplish this, I also used a web API (window.ScrollTo) for easier scrolling within the app, and to further improve user's  experience on my app."
             liveDemo="https://personal-portfolio-halleluyah-adesuyi.netlify.app/"
             github="https://github.com/halleluyahadesuyi/personal-portfolio"
           />

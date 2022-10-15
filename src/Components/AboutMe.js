@@ -23,7 +23,7 @@ export default function AboutMe(props) {
             />
             <p>I am a creative and design-oriented Frontend Developer
                 who builds web applications using various software technologies. I love to 
-                bring abstract ideas to life, and solving real-life challenges in the process.
+                bring abstract ideas to life, and solve real-life challenges in the process.
                 My inquisitiveness has pushed me to acquire more practical skills with the 
                 use of several languages and tools, therefore building some problem-solving products.
                 When I am not coding, you would find me researching more about some programming concepts
