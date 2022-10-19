@@ -1,4 +1,4 @@
-import React, {useRef} from "react"
+import React from "react"
 import ScrollToTop from "react-scroll-to-top"
 
 import logo from "../img/logo.png"
@@ -9,17 +9,6 @@ export default function Nav() {
         const navbarLinks = document.getElementsByClassName("navbar-links")[0]
         navbarLinks.classList.toggle("navbar-links-active")
     }
-
-    // const about = useRef(null)
-    const portfolio = useRef(null)
-    // const contact = useRef(null)
-
-    const scrollToBottom = (elementRef) => {
-        window.scrollTo({
-          top: elementRef.current.offsetTop,
-          behavior: 'smooth',
-        })
-      }
 
     return (
         <nav className="navbar">
@@ -46,15 +35,11 @@ export default function Nav() {
                         </a>
                     </li>
                     <li className="link">
-                        <a onClick={(e) => {
-                            e.preventDefault()
-                            scrollToBottom(portfolio)}} href="portfolio">PORTFOLIO
+                        <a href="#portfolio">PORTFOLIO
                         </a>
                     </li>
                     <li className="link">
-                        <a onClick={(e) => {
-                            e.preventDefault()
-                            scrollToBottom(5303)}} href="contact">CONTACT</a>
+                        <a href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>

@@ -5,7 +5,7 @@ import githubLogo from "../img/github-myWork.png"
 
 export default function Footer() {
   return (
-    <footer>
+    <footer id="contact">
         <span>Copyright &copy; Halleluyah Adesuyi 2022</span>
         <p className="footer-contact">Contact Me!</p>
         <section className="contact">

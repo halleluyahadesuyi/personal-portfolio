@@ -18,8 +18,6 @@ import comingSoonest from "./img/coming-soonest.png"
 import "./App.css"
 
 function App() {
-  const portfolio = useRef(null)
-
   return (
     <div className="App">
       <Nav />
@@ -30,9 +28,9 @@ function App() {
 
       <Certifications />
 
-      <section className="my-work" ref={portfolio}>
+      <section className="my-work" id="portfolio">
         <h2>MY WORK</h2>
-        <span className="italicize">..some of my projects</span>
+        <span className="italicize">...some of my projects</span>
         <img
           src={decorativeUnderline}
           alt="Decorative Underline"
@@ -75,8 +73,8 @@ function App() {
             alt="personal portfolio"
             projectLink="https://personal-portfolio-halleluyah-adesuyi.netlify.app/"
             name="Personal Portfolio"
-            tech1="React" tech2="JavaScript" tech3="CSS" tech4="HTML" tech5="Window.ScrollTo Web API"
-            description="You are here! 😃🎉. I built this centralized app for you to know me more and to also display some of my personal projects. Creating several React Components to accomplish this, I also used a web API (window.ScrollTo) for easier scrolling within the app, and to further improve user's  experience on my app."
+            tech1="React" tech2="JavaScript" tech3="CSS" tech4="HTML" tech5="react-scroll-to-top"
+            description="You are here! 😃🎉. I built this centralized website for you to know me more and to also display some of my personal projects. Creating several React Components to accomplish this, I also made use of the react-scroll-to-top library for easier scrolling, and to further improve user's experience within this website."
             liveDemo="https://personal-portfolio-halleluyah-adesuyi.netlify.app/"
             github="https://github.com/halleluyahadesuyi/personal-portfolio"
           />
