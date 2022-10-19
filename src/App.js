@@ -112,7 +112,7 @@ function App() {
             tech1="React" tech2="GraphQL" tech3="JavaScript"
             tech4="HTML" tech5="CSS"
             description="This project uses GraphQL, a data query language which is a more effective 
-                          alternative to REST APIs, due to its lesser network traffic consumption. This website uses a Shopping Cart interface and some advanced React features like React Routers for optimized page-to-page navigation when users are making their online goods purchase. The focus of this app is to further implement using the available technologies of UseState, UseEffect and some customized React Hooks."
+                          alternative to REST APIs, due to its lesser network traffic consumption. This website uses a Shopping Cart interface and some advanced React features like React Routers for optimized page-to-page navigation when users are making their online goods purchase. The focus of this app is to further implement using the available technologies of UseState, UseEffect and some custom React Hooks."
             liveDemo="#"
             github="#"
           />
