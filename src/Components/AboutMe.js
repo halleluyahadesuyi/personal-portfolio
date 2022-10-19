@@ -12,9 +12,9 @@ import githubLogo from "../img/github.png"
 import api from "../img/api.png"
 import emailIcon from "../img/email-icon.png"
 
-export default function AboutMe(props) {
+export default function AboutMe() {
     return (
-        <section className="about-me">
+        <section className="about-me" id="about">
             <h3>WHO I AM</h3>
             <img
                 src={decorativeUnderline}

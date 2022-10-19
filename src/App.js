@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useRef} from "react"
 
 import Nav from "./Components/Nav"
 import Profile from "./Components/Profile"
@@ -18,6 +18,8 @@ import comingSoonest from "./img/coming-soonest.png"
 import "./App.css"
 
 function App() {
+  const portfolio = useRef(null)
+
   return (
     <div className="App">
       <Nav />
@@ -28,7 +30,7 @@ function App() {
 
       <Certifications />
 
-      <section className="my-work">
+      <section className="my-work" ref={portfolio}>
         <h2>MY WORK</h2>
         <span className="italicize">..some of my projects</span>
         <img
