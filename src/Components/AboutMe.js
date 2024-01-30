@@ -21,7 +21,7 @@ export default function AboutMe() {
                 alt="Decorative Underline"
                 className="underline"
             />
-            <p>"I am a results-driven Frontend Developer, dedicated to crafting dynamic web applications with a focus on creativity and design. My expertise spans various software technologies, allowing me to transform abstract ideas into real-life solutions. Continuously fueled by curiosity, I actively acquire and apply practical skills in diverse languages and tools, resulting in the development of impactful, problem-solving products. When I am not immersed in code, I channel my passion into researching programming concepts, constantly deepening my understanding for continuous innovation and excellence."
+            <p>I am a results-driven Frontend Developer, dedicated to crafting dynamic web applications with a focus on creativity and design. My expertise spans various software technologies, allowing me to transform abstract ideas into real-life solutions. Continuously fueled by curiosity, I actively acquire and apply practical skills in diverse languages and tools, resulting in the development of impactful, problem-solving products. When I am not immersed in code, I channel my passion into researching programming concepts, constantly deepening my understanding for continuous innovation and excellence.
             </p>
 
             <div className="skillset">
