@@ -21,7 +21,7 @@ export default function AboutMe() {
                 alt="Decorative Underline"
                 className="underline"
             />
-            <p>I am a creative and design-oriented Frontend Engineer
+            <p>I am a creative and design-oriented Frontend Developer
                 who builds web applications using various software technologies. I love to 
                 bring abstract ideas to life, and solve real-life challenges in the process.
                 My inquisitiveness has pushed me to acquire more practical skills with the 
