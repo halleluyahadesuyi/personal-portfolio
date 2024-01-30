@@ -9,11 +9,11 @@ export default function Footer() {
         <span>Copyright &copy; Halleluyah Adesuyi 2022</span>
         <p className="footer-contact">Contact Me!</p>
         <section className="contact">
-          <a href="https://www.linkedin.com/in/halleluyahadesuyi/" target="_blank">
+          <a href="https://www.linkedin.com/in/halleluyahadesuyi" target="_blank">
             <img src={linkedin} alt="Linkedin Link" className="contact-linkedin" />
           </a>
 
-          <a href="https://www.instagram.com/ifeoluwa_hallel/" target="_blank">
+          <a href="https://www.instagram.com/halleluyah_ife" target="_blank">
             <img src={instagram} alt="Instagram Link" className="contact-instagram" />
           </a>
 
