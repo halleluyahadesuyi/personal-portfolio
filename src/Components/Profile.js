@@ -17,7 +17,7 @@ export default function Profile() {
         />
         <div className="name-and-job-title">
             <h4 className="name">HALLELUYAH ADESUYI</h4>
-            <h5 className="job-title">Frontend Engineer</h5>
+            <h5 className="job-title">Frontend Developer</h5>
         </div>
     </section>
   )
