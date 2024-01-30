@@ -21,6 +21,14 @@ export default function Certifications() {
             <div className="cert-item">
                 <img src={udacityLogo} alt="Udacity Logo" className="cert-img" />
                 <div>
+                    <h4><a href="https://graduation.udacity.com/confirm/ZTK3WCAU" target="_blank">Front-End Web Developer Nanodegree</a></h4>
+                    <p>Udacity</p>
+                </div>
+            </div>
+
+            <div className="cert-item">
+                <img src={udacityLogo} alt="Udacity Logo" className="cert-img" />
+                <div>
                     <h4><a href="https://confirm.udacity.com/SP4CWSWA" target="_blank">Nanodegree, Intro to Programming</a></h4>
                     <p>Udacity</p>
                 </div>
