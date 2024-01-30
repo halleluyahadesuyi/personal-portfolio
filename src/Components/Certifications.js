@@ -11,10 +11,10 @@ export default function Certifications() {
         
         <div className="cert-grid">
             <div className="cert-item">
-                <img src={scrimbaLogo} alt="Scrimba Logo" className="cert-img" />
+                <img src={udacityLogo} alt="Udacity Logo" className="cert-img" />
                 <div>
-                    <h4><a href="https://scrimba.com/learn/frontend" target="_blank">Frontend Developer Career Path</a></h4>
-                    <p>Scrimba</p>
+                    <h4><a href="https://graduation.udacity.com/confirm/e/87b33602-bda8-11ed-abb0-5f079bccc999" target="_blank">React Nanodegree</a></h4>
+                    <p>Udacity</p>
                 </div>
             </div>
 
@@ -31,6 +31,14 @@ export default function Certifications() {
                 <div>
                     <h4><a href="https://confirm.udacity.com/SP4CWSWA" target="_blank">Nanodegree, Intro to Programming</a></h4>
                     <p>Udacity</p>
+                </div>
+            </div>
+
+            <div className="cert-item">
+                <img src={scrimbaLogo} alt="Scrimba Logo" className="cert-img" />
+                <div>
+                    <h4><a href="https://scrimba.com/learn/frontend" target="_blank">Frontend Developer Career Path</a></h4>
+                    <p>Scrimba</p>
                 </div>
             </div>
 
