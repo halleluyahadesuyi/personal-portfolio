@@ -1,0 +1,10 @@
+/* Apply a blur effect to the image while loading */
+.loading {
+  filter: blur(10px);
+}
+
+/* Apply transition effect for loaded images */
+.loaded {
+  filter: blur(0px);
+  transition: filter 0.2s ease-in-out;
+}

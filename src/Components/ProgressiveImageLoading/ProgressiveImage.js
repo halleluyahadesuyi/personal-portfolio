@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./ProgressiveImage.css";
 
 const ProgressiveImage = ({ src, placeholderSrc, alt, className }) => {
   const [imgSrc, setImgSrc] = useState(placeholderSrc || src);

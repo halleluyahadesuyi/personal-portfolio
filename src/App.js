@@ -6,6 +6,7 @@ import AboutMe from "./Components/AboutMe"
 import Certifications from "./Components/Certifications"
 import MyWork from "./Components/MyWork"
 import Footer from "./Components/Footer"
+import ProgressiveImage from "./Components/ProgressiveImageLoading/ProgressiveImage"
 
 import decorativeUnderline from "./img/line-star-line.png"
 import imageGallery from "./img/image-gallery.png"
@@ -31,8 +32,9 @@ function App() {
       <section className="my-work" id="portfolio">
         <h2>MY WORK</h2>
         <span className="italicize">...some of my projects</span>
-        <img
+        <ProgressiveImage
           src={decorativeUnderline}
+          placeholderSrc={decorativeUnderline}
           alt="Decorative Underline"
           className="underline"
         />
